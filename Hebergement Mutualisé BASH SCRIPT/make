@@ -1,0 +1,13 @@
+PAPER=rapport.tex
+SHELL=/bin/bash
+
+all: pdf clean
+
+pdf:
+	pdflatex $(PAPER)
+
+clean:
+	rm -f *.toc *.aux *.log *.out
+
+cleanall:
+	rm -f *.toc *.pdf *.aux *.log *.out

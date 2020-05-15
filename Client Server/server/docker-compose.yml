@@ -1,0 +1,17 @@
+version: '3.1'
+
+services:
+
+  db:
+    image: mariadb
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: resg4
+    ports:
+      - 3307:3306
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8999:8080

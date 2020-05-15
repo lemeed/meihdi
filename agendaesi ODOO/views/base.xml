@@ -1,0 +1,27 @@
+<odoo>
+	<!-- Base calendar view -->
+	<!--<record model="ir.ui.view" id="calendar_tree_view">
+		<field name="name">calendar.tree</field>
+		<field name="arch" type="xml">
+			<tree string="Calendar Tree">
+				<field name="name" />
+			</tree>
+		</field>
+	</record>-->
+
+	<!-- Base calendar form -->
+	<!--<record model="ir.ui.view" id="calendar_form_view">
+		<field name="name">calendar.form</field>
+		<field name="arch" type="xml">
+			<form string="Calendar Form">
+				<sheet>
+					<group>
+						<field name="is_manager" />
+						<field name="write_date" readonly="1" />
+						<field name="name" attrs="{'readonly': [('is_manager', '=', False)]}" />
+					</group>
+				</sheet>
+			</form>
+		</field>
+	</record>-->
+</odoo>

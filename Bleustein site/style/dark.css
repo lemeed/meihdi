@@ -1,0 +1,320 @@
+@font-face {
+    font-family: "myfont";
+    src: url("../fonts/MYRIADPRO-BOLD.woff") format('woff');
+}
+
+@font-face {
+    font-family: "myfontRegular";
+    src: url("../fonts/MYRIADPRO-REGULAR.woff") format('woff');
+}
+
+body {
+    color: white;
+    padding:0;
+    margin:0;
+    background-color: black;
+}
+.buttonSwitch{
+    color: white;
+}
+a:visited{
+color:white;
+}
+#mainTitle {
+    margin-top: 11%;
+    font-size:100px;
+    padding-left:10%;
+    font-family:"myfont";
+    line-height:104%;
+}
+.mail{
+    float:left;
+    margin-left: 10%;
+    font-family: "myfontRegular";
+    font-size: 32px;
+    margin-top:26px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    
+}
+
+a{
+    font-size: 32px;
+    color:white;
+    text-decoration: none;
+}
+
+.box {
+   display:block;
+}
+#imageMobile{
+    visibility: hidden;
+}
+header{
+  
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  overflow: hidden;
+}
+.buttonSwitch {
+    cursor:pointer;
+    position:absolute;
+    right:6%;
+    border:none;
+    background:none;
+    font-weight: 900;
+    margin-left: 84%;
+    padding-top: 5%;
+    font-size: 35px;
+    font-family: "myfontRegular";
+    padding-bottom: 7%;
+
+}
+
+.ok{
+    font-size: 66%;
+    margin-top:1%;
+    
+}
+
+.wa {
+    font-weight: 500;
+    font-family: "myfontRegular";
+    
+}
+
+a:hover {
+      color:#ff9900;
+  }
+
+.an{
+    position: inline-block;
+    font-size: 130px;
+}
+.underline {
+    border-bottom: 7px solid currentColor;
+    display: inline-block;
+    line-height: 0.85;
+    border-bottom-color: #ff9900;
+}
+
+.buttonSwitch:hover{
+    color:#ff9900;
+}
+
+.title {
+    font-family: "myfontRegular";
+}
+
+.text-chall {    
+    /*padding-top: 3%;*/
+    font-weight: bold;
+}
+
+
+.page {
+    padding-left: 10%;
+
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+
+    -webkit-animation: colors 8s infinite;
+    animation: colors 8s infinite;
+    -webkit-animation-timing-function: cubic-bezier(0.85, 0.01, 0.19, 0.99);
+    animation-timing-function: cubic-bezier(0.85, 0.01, 0.19, 0.99);
+    font-family: "myfont";
+}
+
+#imageLogo  {
+    float:right;
+    margin-right:6%;
+}
+
+h1 {
+    font-size: 130px;
+    margin-right: 52%;
+    padding-top: 1%;
+    font-weight: 100;
+    text-align: left;
+    display: inline-block;
+
+    margin: auto;
+
+
+
+}
+
+
+
+
+.typing-text::after {
+  content: "|";
+  animation: blink ease 1s infinite;
+}
+
+#containerFooter {
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 0;
+  } 50% {
+    opacity: 1;
+  }
+}
+
+@media (max-width 320px){
+    #imageMobile{
+        bottom: 15%;
+    }
+}
+@media (max-height: 670px ){
+   /* #imageMobile{
+        visibility: visible;
+        position :fixed;
+        bottom:27%;
+        left:55%;
+    }
+    #containerFooter{
+        position:relative ;
+    }
+    #imageLogo{
+        visibility: hidden;
+        padding-top: 56%;
+    }*/
+    #containerFooter{
+        padding-top: 20%;
+        position:inherit;
+    }
+}
+
+@media (max-width: 740px )  and (min-width:323px) {
+    #imageMobile{
+        visibility: visible !important;
+        position :fixed;
+        bottom:17%;
+        left:55%;
+    }
+ #mainTitle{
+        margin-top:35%;
+        font-size: 46px;
+    }
+    
+    .buttonSwitch {
+        font-size:20px;
+    }
+    
+    #containerFooter {
+        padding-top: 0px;
+        position:inherit;
+        bottom:12% !important;
+    }
+    
+    .mail {
+        font-size:20px;
+    }
+    
+    img {
+        width:40%;
+    }
+    
+    #imageLogo{
+        visibility: hidden;
+        margin-top: 25%;
+    }
+}
+
+@media (max-width: 323px) {
+    #imageMobile{
+        visibility: visible !important;
+        position :fixed;
+        bottom:17%;
+        left:55%;
+    }
+    #mainTitle{
+        margin-top:45%;
+        font-size: 35px;
+    }
+    .buttonSwitch {
+        font-size:20px;
+    }
+    
+    #containerFooter {
+        padding-top: 0px;
+        position:inherit;
+        bottom:12% !important;
+    }
+    
+    .mail {
+        font-size:20px;
+    }
+    
+    img {
+        width:40%;
+    }
+    
+    #imageLogo{
+        visibility: hidden;
+        margin-top: 25%;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    #mainTitle{
+        margin-top: 16%;
+        font-size: 850%;
+    }
+    .mail{
+        font-size: 320%;
+        padding-bottom: 0.5%;
+    }
+    .buttonSwitch{
+        font-size: 300%;
+    }
+    img{
+        width:17%;
+    }
+}
+@media (max-width: 1024px) and (min-width:740px) {
+/*
+    #imageMobile{
+        visibility: visible !important;
+        position :fixed;
+        bottom:20%;
+        left:55%;
+    }*/
+    #mainTitle{
+        margin-top:25%;
+        font-size:600%;
+    }
+    
+    .buttonSwitch {
+        font-size:40px;
+    }
+    
+    #containerFooter {
+        bottom:12% !important;
+        position:relative !important;
+    }
+    
+    .mail {
+        font-size:40px;
+    }
+    
+    img {
+        width:40%;
+    }
+    
+    #imageLogo{
+        /*visibility: hidden;*/
+        margin-top: 25%;
+    }
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/MediaMarkt/Desktop/interro%20DEV2/m-elamouri/Stratego/src/g49262/stratego/model/pieces/Bomb.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/interro%20DEV2/m-elamouri/Stratego/test/g49262/stratego/model/PlayerTest.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/interro%20DEV2/m-elamouri/Stratego/src/g49262/stratego/controller/Controller.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/interro%20DEV2/m-elamouri/Stratego/src/g49262/stratego/model/pieces/Eclaireur.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/interro%20DEV2/m-elamouri/Stratego/test/g49262/stratego/model/MoveTest.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/interro%20DEV2/m-elamouri/Stratego/src/g49262/stratego/model/pieces/General.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/interro%20DEV2/m-elamouri/Stratego/src/g49262/stratego/view/View.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/interro%20DEV2/m-elamouri/Stratego/nbproject/build-impl.xml</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/interro%20DEV2/m-elamouri/Stratego/src/g49262/stratego/model/SquareType.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/interro%20DEV2/m-elamouri/Stratego/src/g49262/stratego/model/Player.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/interro%20DEV2/m-elamouri/Stratego/src/g49262/stratego/model/pieces/Marechal.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/interro%20DEV2/m-elamouri/Stratego/test/g49262/stratego/model/pieces/EclaireurTest.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/interro%20DEV2/m-elamouri/Stratego/src/g49262/stratego/model/Square.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/interro%20DEV2/m-elamouri/Stratego/test/g49262/stratego/model/PositionTest.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/interro%20DEV2/m-elamouri/Stratego/test/g49262/stratego/model/DirectionTest.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/interro%20DEV2/m-elamouri/Stratego/src/g49262/stratego/model/Piece.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/interro%20DEV2/m-elamouri/Stratego/test/g49262/stratego/model/BoardTest.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/interro%20DEV2/m-elamouri/Stratego/test/g49262/stratego/model/SquareTypeTest.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/interro%20DEV2/m-elamouri/Stratego/src/g49262/stratego/model/Model.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/interro%20DEV2/m-elamouri/Stratego/src/g49262/stratego/model/Position.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/interro%20DEV2/m-elamouri/Stratego/src/g49262/stratego/model/pieces/Spy.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/interro%20DEV2/m-elamouri/Stratego/test/g49262/stratego/model/SquareTest.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/interro%20DEV2/m-elamouri/Stratego/test/g49262/stratego/model/pieces/FlagTest.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/interro%20DEV2/m-elamouri/Stratego/test/g49262/stratego/model/pieces/SpyTest.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/interro%20DEV2/m-elamouri/Stratego/src/g49262/stratego/model/Move.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/interro%20DEV2/m-elamouri/Stratego/test/g49262/stratego/model/pieces/BombTest.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/interro%20DEV2/m-elamouri/Stratego/src/g49262/stratego/model/Board.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/interro%20DEV2/m-elamouri/Stratego/test/g49262/stratego/model/pieces/MarechalTest.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/interro%20DEV2/m-elamouri/Stratego/test/g49262/stratego/model/pieces/MinerTest.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/interro%20DEV2/m-elamouri/Stratego/src/g49262/stratego/model/PlayerColor.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/interro%20DEV2/m-elamouri/Stratego/src/g49262/stratego/model/Direction.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/interro%20DEV2/m-elamouri/Stratego/test/g49262/stratego/model/PieceTest.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/interro%20DEV2/m-elamouri/Stratego/test/g49262/stratego/model/GameTest.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/interro%20DEV2/m-elamouri/Stratego/src/g49262/stratego/model/pieces/Miner.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/interro%20DEV2/m-elamouri/Stratego/src/g49262/stratego/Stratego.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/interro%20DEV2/m-elamouri/Stratego/src/g49262/stratego/model/Game.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/interro%20DEV2/m-elamouri/Stratego/src/g49262/stratego/model/pieces/Flag.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/interro%20DEV2/m-elamouri/Stratego/test/g49262/stratego/model/pieces/GeneralTest.java</file>
+        </group>
+    </open-files>
+</project-private>

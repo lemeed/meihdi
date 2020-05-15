@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro);
+
+$main-font: bold 3rem Arial;
+
+html {
+  font: $main-font;
+  background-color: #f45942;
+}
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.text-scoller-container {
+  display: flex;
+  
+  h2:first-child {
+    margin-right: .5rem;
+  }
+}
+
+.text-scroller {
+  height: 1rem;
+  overflow: hidden;
+  
+  .text-scroller-item {
+    display: block;
+    animation: scroller 4s infinite;
+    animation-timing-function: ease-in-out;
+  }
+}
+
+@keyframes scroller {
+  0% {
+    transform: translateY(0)
+  }
+  33.33% {
+    transform: translateY(-1rem)
+  }
+  66.66% {
+    transform: translateY(-2rem)
+  }
+  100% {
+    transform: translateY(-3rem)
+  }
+}

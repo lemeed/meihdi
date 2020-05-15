@@ -1,0 +1,18 @@
+<odoo>
+	<!-- Création des différents rôles -->
+	<record id="agendaesi_student" model="res.groups">
+		<field name="name">AgendaESI / Étudiant</field>
+	</record>
+	
+	<record id="agendaesi_teacher" model="res.groups">
+		<field name="name">AgendaESI / Enseignant</field>
+	</record>
+	
+	<record id="agendaesi_administrative" model="res.groups">
+		<field name="name">AgendaESI / Administratif</field>
+	</record>
+	
+	<record id="agendaesi_root" model="res.groups">
+		<field name="name">AgendaESI / Administrateur</field>
+	</record>
+</odoo>

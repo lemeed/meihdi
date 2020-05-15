@@ -1,0 +1,110 @@
+<odoo>
+
+	<!-- Action window : Student calendars -->
+	<record model="ir.actions.act_window" id="student_list_action">
+		<field name="name">Student Calendars</field>
+		<field name="res_model">agendaesi.studentcalendar</field>
+		<field name="view_type">form</field>
+		<field name="view_mode">tree,form</field>
+		<field name="help" type="html">
+			<p class="oe_view_nocontent_create">Create the first student calendar</p>
+		</field>
+	</record>
+
+	<!-- Action window : Student events -->
+	<record model="ir.actions.act_window" id="student_events_list_action">
+		<field name="name">Student Events</field>
+		<field name="res_model">agendaesi.studentevent</field>
+		<field name="view_type">form</field>
+		<field name="view_mode">calendar,graph,tree,form</field>
+		<field name="help" type="html">
+			<p class="oe_view_nocontent_create">Create the first student event</p>
+		</field>
+	</record>
+	
+	<!-- Action window : Administrative calendars -->
+	<record model="ir.actions.act_window" id="administrative_list_action">
+		<field name="name">administrative Calendars</field>
+		<field name="res_model">agendaesi.administrativecalendar</field>
+		<field name="view_type">form</field>
+		<field name="view_mode">tree,form</field>
+		<field name="help" type="html">
+			<p class="oe_view_nocontent_create">Create the first administrative calendar</p>
+		</field>
+	</record>
+
+	<!-- Action window : Administrative events -->
+	<record model="ir.actions.act_window" id="administrative_events_list_action">
+		<field name="name">administrative Events</field>
+		<field name="res_model">agendaesi.administrativeevent</field>
+		<field name="view_type">form</field>
+		<field name="view_mode">calendar,graph,tree,form</field>
+		<field name="help" type="html">
+			<p class="oe_view_nocontent_create">Create the first administrative event</p>
+		</field>
+	</record>
+	
+	<!-- Action window : pedagogic calendars -->
+	<record model="ir.actions.act_window" id="pedagogic_list_action">
+		<field name="name">pedagogic Calendars</field>
+		<field name="res_model">agendaesi.pedagogiccalendar</field>
+		<field name="view_type">form</field>
+		<field name="view_mode">tree,form</field>
+		<field name="help" type="html">
+			<p class="oe_view_nocontent_create">Create the first pedagogic calendar</p>
+		</field>
+	</record>
+
+	<!-- Action window : pedagogic events -->
+	<record model="ir.actions.act_window" id="pedagogic_events_list_action">
+		<field name="name">Pedagogic Events</field>
+		<field name="res_model">agendaesi.pedagogicevent</field>
+		<field name="view_type">form</field>
+		<field name="view_mode">calendar,graph,tree,form</field>
+		<field name="help" type="html">
+			<p class="oe_view_nocontent_create">Create the first pedagogic event</p>
+		</field>
+	</record>
+
+	<menuitem id="main_agendaesi_menu" name="Agendas ESI" />
+	<menuitem id="agendaesi_menu" name="Agenda ESI" parent="main_agendaesi_menu" />
+	<!-- Menu item : Student calendars -->
+	<menuitem id="student_calendars_menu" name="Student Calendars" parent="agendaesi_menu" action="student_list_action" />
+	<!-- Menu item : Pedagogic calendars -->
+	<!--<menuitem id="pedagogic_calendars_menu" name="Pedagogic Calendars" parent="agendaesi_menu" action="pedagogic_list_action" />-->
+	<!-- Menu item : Administrative calendars -->
+	<menuitem id="administrative_calendars_menu" name="Administrative Calendars" parent="agendaesi_menu" action="administrative_list_action" />
+	<!-- Menu item : Pedagogic calendars -->
+	<menuitem id="pedagogic_calendars_menu" name="Pedagogic Calendars" parent="agendaesi_menu" action="pedagogic_list_action" />
+
+	<menuitem id="main_agendaesi_event_menu" name="Évènements ESI" parent="main_agendaesi_menu" />
+	<!-- Menu item : Student events -->
+	<menuitem id="student_events_menu" name="Student Events" parent="main_agendaesi_event_menu" action="student_events_list_action" />
+	<!-- Menu item : administrative events -->
+	<menuitem id="administrative_events_menu" name="Administrative Events" parent="main_agendaesi_event_menu" action="administrative_events_list_action" />
+	<!-- Menu item : pedagogic events -->
+	<menuitem id="pedagogic_events_menu" name="Pedagogic Events" parent="main_agendaesi_event_menu" action="pedagogic_events_list_action" />
+
+	<!-- Base event view -->
+	<!--<record model="ir.ui.view" id="event_tree_view">
+		<field name="name">agendaesi.event.tree</field>
+		<field name="model">agendaesi.studentcalendar</field>
+		<field name="arch" type="xml">
+			<tree string="Event Tree">
+				<field name="title" />
+			</tree>
+		</field>
+	</record>-->
+
+	<!-- Search -->
+	<!--<record model="ir.ui.view" id="calendar_search_view">
+		<field name="name">calendar.search</field>
+		<field name="model">agendaesi.calendar</field>
+		<field name="arch" type="xml">
+			<search>
+				<field name="name" />
+			</search>
+		</field>
+	</record>-->
+
+</odoo>

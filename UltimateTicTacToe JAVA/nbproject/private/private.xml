@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/MediaMarkt/Desktop/atlg4%20final/atlg4_49262/UltimateTicTacToe/src/atlg4/ultimate/g49262/AlertUTT.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/atlg4%20final/atlg4_49262/UltimateTicTacToe/src/atlg4/ultimate/g49262/findPlayer.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/atlg4%20final/atlg4_49262/UltimateTicTacToe/src/atlg4/ultimate/g49262/model/User.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/atlg4%20final/atlg4_49262/UltimateTicTacToe/src/atlg4/ultimate/g49262/LogInController.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/atlg4%20final/atlg4_49262/UltimateTicTacToe/src/atlg4/ultimate/g49262/StartGameController.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/atlg4%20final/atlg4_49262/UltimateTicTacToe/nbproject/build-impl.xml</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/atlg4%20final/atlg4_49262/UltimateTicTacToe/src/atlg4/ultimate/g49262/model/Player.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/atlg4%20final/atlg4_49262/UltimateTicTacToe/src/atlg4/ultimate/g49262/exception/DTOException.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/atlg4%20final/atlg4_49262/UltimateTicTacToe/src/atlg4/ultimate/g49262/model/Symbol.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/atlg4%20final/atlg4_49262/UltimateTicTacToe/src/atlg4/ultimate/g49262/pers/EntityDto.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/atlg4%20final/atlg4_49262/UltimateTicTacToe/src/atlg4/ultimate/g49262/model/MiniTicTacToe.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/atlg4%20final/atlg4_49262/UltimateTicTacToe/src/atlg4/ultimate/g49262/exception/BusinessException.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/atlg4%20final/atlg4_49262/UltimateTicTacToe/src/atlg4/ultimate/g49262/view/StartGame.fxml</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/atlg4%20final/atlg4_49262/UltimateTicTacToe/src/atlg4/ultimate/g49262/view/EndGame.fxml</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/atlg4%20final/atlg4_49262/UltimateTicTacToe/src/atlg4/ultimate/g49262/view/Welcome.fxml</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/atlg4%20final/atlg4_49262/UltimateTicTacToe/src/atlg4/ultimate/g49262/view/UTT.fxml</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/atlg4%20final/atlg4_49262/UltimateTicTacToe/src/atlg4/ultimate/g49262/model/Score.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/atlg4%20final/atlg4_49262/UltimateTicTacToe/src/atlg4/ultimate/g49262/EndGame.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/atlg4%20final/atlg4_49262/UltimateTicTacToe/src/atlg4/ultimate/g49262/WelcomeController.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/atlg4%20final/atlg4_49262/UltimateTicTacToe/src/atlg4/ultimate/g49262/db/History.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/atlg4%20final/atlg4_49262/UltimateTicTacToe/src/atlg4/ultimate/g49262/model/Game.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/atlg4%20final/atlg4_49262/UltimateTicTacToe/src/atlg4/ultimate/g49262/view/HistoController.fxml</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/atlg4%20final/atlg4_49262/UltimateTicTacToe/src/atlg4/ultimate/g49262/exception/UTTException.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/atlg4%20final/atlg4_49262/UltimateTicTacToe/src/atlg4/ultimate/g49262/model/BoardPart.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/atlg4%20final/atlg4_49262/UltimateTicTacToe/src/atlg4/ultimate/g49262/pers/PlayerSel.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/atlg4%20final/atlg4_49262/UltimateTicTacToe/src/atlg4/ultimate/g49262/UltimateTicTacToe.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/atlg4%20final/atlg4_49262/UltimateTicTacToe/src/atlg4/ultimate/g49262/model/GameModel.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/atlg4%20final/atlg4_49262/UltimateTicTacToe/src/atlg4/ultimate/g49262/model/Square.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/atlg4%20final/atlg4_49262/UltimateTicTacToe/src/atlg4/ultimate/g49262/model/TicTacToe.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/atlg4%20final/atlg4_49262/UltimateTicTacToe/src/atlg4/ultimate/g49262/view/Welcome.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/atlg4%20final/atlg4_49262/UltimateTicTacToe/src/atlg4/ultimate/g49262/db/DBManager.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/atlg4%20final/atlg4_49262/UltimateTicTacToe/src/database/CreateTableUltimateTTT.sql</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/atlg4%20final/atlg4_49262/UltimateTicTacToe/src/atlg4/ultimate/g49262/exception/DBException.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/atlg4%20final/atlg4_49262/UltimateTicTacToe/src/atlg4/ultimate/g49262/model/UltimateTicTacToe.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/atlg4%20final/atlg4_49262/UltimateTicTacToe/src/atlg4/ultimate/g49262/HistoController.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/atlg4%20final/atlg4_49262/UltimateTicTacToe/src/atlg4/ultimate/g49262/pers/PlayerDto.java</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/atlg4%20final/atlg4_49262/UltimateTicTacToe/src/atlg4/ultimate/g49262/view/Histo.fxml</file>
+            <file>file:/C:/Users/MediaMarkt/Desktop/atlg4%20final/atlg4_49262/UltimateTicTacToe/src/atlg4/ultimate/g49262/view/UTTController.java</file>
+        </group>
+    </open-files>
+</project-private>

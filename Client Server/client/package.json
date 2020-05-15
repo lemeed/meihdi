@@ -1,0 +1,40 @@
+{
+  "name": "package-manager-client",
+  "version": "1.0.0",
+  "description": "A package manager secure client",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "dev": "./node_modules/.bin/nodemon --ignore 'packages/*/**' --exec ./node_modules/.bin/ts-node ./src/index.ts",
+    "create": "npm run build && npm run test",
+    "build": "./node_modules/.bin/tsc -p .",
+    "test": "sudo npm i -g && package-manager-client"
+  },
+  "bin": {
+    "package-manager-client": "./build/index.js"
+  },
+  "author": "David M <d@michaluk.be>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^12.0.2",
+    "@types/request-promise": "^4.1.44",
+    "markdown-pdf": "^9.0.0",
+    "nodemon": "^1.19.0",
+    "ts-node": "^8.1.1",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "child-process-async": "^1.0.1",
+    "clear": "^0.1.0",
+    "commander": "^2.20.0",
+    "figlet": "^1.2.1",
+    "fs-extra": "^8.0.1",
+    "inquirer": "^6.3.1",
+    "path": "^0.12.7",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "request-promise-native": "^1.0.7",
+    "semver": "^6.1.0"
+  }
+}

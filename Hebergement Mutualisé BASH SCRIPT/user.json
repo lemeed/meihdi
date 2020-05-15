@@ -1,0 +1,24 @@
+{
+    "ListUser":[{
+        "user":[{
+            "name": "quinet",
+            "DataBaseName": "quinetDB1",
+            "DataBasePassword": "meihdi",
+            "bloc":"2000",
+            "SiteDirectory":"/home/lemed/Documents/projet/Site-SYSG5"
+           
+        }]},{
+        
+        "user":[{
+            "name": "ok",
+            "DataBaseName": "okDB1",
+            "DataBasePassword": "cedric",
+            "bloc":"2000",
+            "SiteDirectory":"/home/lemed/Documents/projet/Site-SYSG5"
+        }   
+        ]
+      }
+    
+    ]
+
+}

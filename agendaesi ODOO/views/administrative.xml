@@ -1,0 +1,132 @@
+<odoo>
+	<!-- administrative calendar view -->
+	<record model="ir.ui.view" id="administrative_calendar_tree_view">
+		<field name="name">administrativecalendar.tree</field>
+		<field name="model">agendaesi.administrativecalendar</field>
+		<field name="arch" type="xml">
+			<tree string="Calendar Tree">
+				<field name="name" />
+			</tree>
+		</field>
+	</record>
+
+	<!-- administrative calendar form -->
+	<record model="ir.ui.view" id="administrative_calendar_form_view">
+		<field name="name">administrativecalendar.form</field>
+		<field name="model">agendaesi.administrativecalendar</field>
+		<field name="arch" type="xml">
+			<form string="Calendar Form">
+				<sheet>
+					<group>
+						<field name="is_manager" />
+						<field name="write_date" readonly="1" />
+						<field name="name" attrs="{'readonly': [('is_manager', '=', False)]}" />
+					</group>
+				</sheet>
+			</form>
+		</field>
+	</record>
+
+	<!-- administrative event view -->
+	<record model="ir.ui.view" id="administrative_event_tree_view">
+		<field name="name">administrativeevent.tree</field>
+		<field name="model">agendaesi.administrativeevent</field>
+		<field name="arch" type="xml">
+			<tree string="Event Tree">
+				<field name="title" />
+				<field name="start_date" />
+				<field name="end_date" />
+				<field name="calendar_id" />
+			</tree>
+		</field>
+	</record>
+
+	<!-- administrative calendar form -->
+	<record model="ir.ui.view" id="administrative_event_form_view">
+		<field name="name">administrativeevent.form</field>
+		<field name="model">agendaesi.administrativeevent</field>
+		<field name="arch" type="xml">
+			<form string="Event form">
+				<header>
+					<button string="Register myself" attrs="{'invisible': [('can_subscribe', '=', True)]}" type="object" name="register" class="oe_highlight" />
+					<button string="Unsubscribe" attrs="{'invisible': [('can_subscribe', '=', False)]}" type="object" name="unsubscribe" class="oe_highlight" />
+					<field name="can_subscribe" invisible="1" />
+				</header>
+				<sheet>
+					<group>
+						<group>
+							
+							<field name="calendar_id" attrs="{'readonly': [('is_manager', '=', False)]}"/>
+							<field name="title" attrs="{'readonly': [('is_manager', '=', False)]}" />
+							<field name="place" attrs="{'readonly': [('is_manager', '=', False)]}" />
+							<field name="max_attendee_number" attrs="{'readonly': [('is_manager', '=', False)]}" />
+							<field name="attendees_percentage" widget="progressbar" />
+							<field name="manager_id" />
+						</group>
+						<group>
+							<field name="start_date" attrs="{'readonly': [('is_manager', '=', False)]}" />
+							<field name="end_date" attrs="{'readonly': [('is_manager', '=', False)]}" />
+							<field name="is_periodic" attrs="{'readonly': [('is_manager', '=', False)]}" />
+							<field name="periodicity" attrs="{'readonly': [('is_manager', '=', False)]}" />
+							<field name="end_periodicity" attrs="{'readonly': [('is_manager', '=', False)]}" />
+							<field name="is_manager" invisible="1" />
+						</group>
+					</group>
+					<notebook>
+						<page string="Attendees">
+							<field name="attendee_ids" attrs="{'readonly': [('is_manager', '=', False)]}" />
+						</page>
+					</notebook>
+				</sheet>
+			</form>
+		</field>
+	</record>
+
+	<!-- administrative event cal view -->
+	<record model="ir.ui.view" id="administrative_event_calendar_view">
+		<field name="name">administrativeevent.calendar</field>
+		<field name="model">agendaesi.administrativeevent</field>
+		<field name="arch" type="xml">
+			<calendar color="calendar_id" date_stop="end_date" date_start="start_date" string="Events">
+				<field name="title" />
+				<field name="calendar_id" />
+			</calendar>
+		</field>
+	</record>
+
+	<!-- administrative event graph view -->
+	<record model="ir.ui.view" id="administrative_event_graph_view">
+		<field name="name">administrativeevent.graph</field>
+		<field name="model">agendaesi.administrativeevent</field>
+		<field name="arch" type="xml">
+			<graph string="Attendees by event">
+				<field name="id" />
+				<field name="attendees_count" type="measure" />
+			</graph>
+		</field>
+	</record>
+
+	<!-- Report -->
+	<report id="administrative_report" model="agendaesi.administrativeevent" string="administrative Report" name="agendaesi.report_administrative_event_view" file="agendaesi.report_administrative_event" report_type="qweb-pdf" />
+
+	<template id="report_administrative_event_view">
+		<t t-call="web.html_container">
+			<t t-foreach="docs" t-as="doc">
+				<t t-call="web.external_layout">
+					<div class="page">
+						<h2 t-field="doc.title" />
+						<p>From <span t-field="doc.start_date" /> to <span t-field="doc.end_date" /></p>
+						<p>Where <span t-field="doc.place" /></p>
+						<h3>Attendees for the event:</h3>
+						<ul>
+							<t t-foreach="doc.attendee_ids" t-as="attendee">
+								<li><span t-field="attendee.display_name" /></li>
+							</t>
+						</ul>
+					</div>
+				</t>
+			</t>
+		</t>
+	</template>
+
+</odoo>

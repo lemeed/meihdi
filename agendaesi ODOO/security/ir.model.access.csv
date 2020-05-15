@@ -1,0 +1,19 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+student_access_for_students,Access for student calendars for students,model_agendaesi_studentevent,agendaesi_student,1,1,1,1
+student_access_for_root,Access for student calendars for root,model_agendaesi_studentevent,agendaesi_root,1,1,1,1
+student_access_for_all,Access for student calendars for all (RO),model_agendaesi_studentevent,,1,0,0,0
+teacher_access_for_teachers,Access for student calendars for teachers,model_agendaesi_pedagogicevent,agendaesi_teacher,1,1,1,1
+teacher_access_for_root,Access for student calendars for root,model_agendaesi_pedagogicevent,agendaesi_root,1,1,1,1
+teacher_access_for_all,Access for student calendars for all (RO),model_agendaesi_pedagogicevent,,1,0,0,0
+admin_access_for_admin,Access for student calendars for administratives,model_agendaesi_administrativeevent,agendaesi_administrative,1,1,1,1
+admin_access_for_root,Access for student calendars for root,model_agendaesi_administrativeevent,agendaesi_root,1,1,1,1
+admin_access_for_all,Access for student calendars for all (RO),model_agendaesi_administrativeevent,,1,0,0,0
+cal_student_access_for_students,Cal Access for student calendars for students,model_agendaesi_studentcalendar,agendaesi_student,1,1,1,1
+cal_student_access_for_root,Cal Access for student calendars for root,model_agendaesi_studentcalendar,agendaesi_root,1,1,1,1
+cal_student_access_for_all,Cal Access for student calendars for all (RO),model_agendaesi_studentcalendar,,1,0,0,0
+cal_teacher_access_for_teachers,Cal Access for student calendars for teachers,model_agendaesi_pedagogiccalendar,agendaesi_teacher,1,1,1,1
+cal_teacher_access_for_root,Cal Access for student calendars for root,model_agendaesi_pedagogiccalendar,agendaesi_root,1,1,1,1
+cal_teacher_access_for_all,Cal Access for student calendars for all (RO),model_agendaesi_pedagogiccalendar,,1,0,0,0
+cal_admin_access_for_admin,Cal Access for student calendars for administratives,model_agendaesi_administrativecalendar,agendaesi_administrative,1,1,1,1
+cal_admin_access_for_root,Cal Access for student calendars for root,model_agendaesi_administrativecalendar,agendaesi_root,1,1,1,1
+cal_admin_access_for_all,Cal Access for student calendars for all (RO),model_agendaesi_administrativecalendar,,1,0,0,0
